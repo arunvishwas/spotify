@@ -1,0 +1,96 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    
+
+}
+body{
+    background-color: antiquewhite;
+}
+nav{
+
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    height: 65px;
+    background-color: black;
+    color:white;
+}
+ nav ul li {
+    padding:0 12px;
+}  
+.brand { 
+    display: flex;
+    align-items:center;
+    font-weight: 1.3rem;
+    font-size: 30px;
+}
+
+.brand img{
+    width:33px;
+}
+ .container{
+    min-height: 75vh;
+    background-color:black;
+    color:white;
+    display: flex;
+    width: 70%;
+    margin:23px auto;
+    padding: 34px;
+    background-image: url('bg.jpg');
+    background-size: 100%;
+
+ }
+
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    bottom: 0 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    flex-direction: column;
+}
+.icons{ 
+    margin-top:10px;
+}
+
+#myProgressBar{
+    width:80vw;
+}
+.songItemContainer{
+    
+}
+
+.songitems{
+    height:25px;
+    display: flex;
+    background-color: white;
+   
+    color:black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+
+}
+.songitems img {
+    width:23px;
+    margin:0 23px;   
+}
+.timestamp{
+    margin:0 23px;
+   
+}
+
+.songitems i {
+    cursor:pointer;
+    padding:0 5px;
+    margin-right: 10px;
+}
